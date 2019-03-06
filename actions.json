@@ -72,6 +72,10 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/painting/in/paint",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -89,6 +93,10 @@
     },
     {
       "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/painting",
       "usage": "single"
     }
   ],
@@ -142,7 +150,8 @@
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/painting/in/paint": "paint"
     }
   ]
 }
