@@ -105,18 +105,43 @@ public class VoxelGenerator : MonoBehaviour
     }
     
     void GenerateCollider(int x, int y){
+        //Top
         colVertices.Add( new Vector3 (x  , y  , 1));
         colVertices.Add( new Vector3 (x + 1 , y  , 1));
         colVertices.Add( new Vector3 (x + 1 , y  , 0 ));
         colVertices.Add( new Vector3 (x  , y  , 0 ));
- 
-        colTriangles.Add(colCount * 4);
-        colTriangles.Add((colCount * 4) + 1);
-        colTriangles.Add((colCount * 4) + 3);
-        colTriangles.Add((colCount * 4) + 1);
-        colTriangles.Add((colCount * 4) + 2);
-        colTriangles.Add((colCount * 4) + 3);
- 
+   
+        ColliderTriangles();
+   
+        ++colCount;
+   
+        //bot
+        colVertices.Add( new Vector3 (x  , y -1 , 0));
+        colVertices.Add( new Vector3 (x + 1 , y -1 , 0));
+        colVertices.Add( new Vector3 (x + 1 , y -1 , 1 ));
+        colVertices.Add( new Vector3 (x  , y -1 , 1 ));
+   
+        ColliderTriangles();
+        ++colCount;
+   
+        //left
+        colVertices.Add( new Vector3 (x  , y -1 , 1));
+        colVertices.Add( new Vector3 (x  , y  , 1));
+        colVertices.Add( new Vector3 (x  , y  , 0 ));
+        colVertices.Add( new Vector3 (x  , y -1 , 0 ));
+   
+        ColliderTriangles();
+   
+        ++colCount;
+   
+        //right
+        colVertices.Add( new Vector3 (x +1 , y  , 1));
+        colVertices.Add( new Vector3 (x +1 , y -1 , 1));
+        colVertices.Add( new Vector3 (x +1 , y -1 , 0 ));
+        colVertices.Add( new Vector3 (x +1 , y  , 0 ));
+   
+        ColliderTriangles();
+   
         ++colCount;
     }
     
@@ -156,5 +181,14 @@ public class VoxelGenerator : MonoBehaviour
     
             }
         }
+    }
+    
+    void ColliderTriangles(){
+        colTriangles.Add(colCount * 4);
+        colTriangles.Add((colCount * 4) + 1);
+        colTriangles.Add((colCount * 4) + 3);
+        colTriangles.Add((colCount * 4) + 1);
+        colTriangles.Add((colCount * 4) + 2);
+        colTriangles.Add((colCount * 4) + 3);
     }
 }

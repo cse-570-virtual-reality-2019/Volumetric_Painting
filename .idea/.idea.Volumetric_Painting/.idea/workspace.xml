@@ -15,30 +15,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VoxelGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+            <state relative-caret-position="649">
+              <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+              <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+              <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+              <caret line="144" column="10" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
               <folding>
-                <marker date="1552509225174" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552509225174" expanded="true" signature="123:4848" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="280:373" ph="/* The triangles tell Unity how to build each section of the mesh joining ... */" />
-                <marker date="1552509225174" expanded="true" signature="436:544" ph="/* The UV list is unimportant right now but it tells Unity how the texture is ... */" />
-                <marker date="1552509225174" expanded="true" signature="819:956" ph="/* A mesh is made up of the vertices, triangles and UVs we are going to define, ... */" />
-                <marker date="1552509225174" expanded="true" signature="1336:1547" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="1611:2470" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="2528:2549" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="2624:3289" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="3334:3855" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="3882:4272" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="3972:4266" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4031:4256" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4062:4135" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4169:4242" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4298:4846" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4353:4840" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4412:4830" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4454:4536" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4593:4679" ph="{...}" />
-                <marker date="1552509225174" expanded="true" signature="4725:4811" ph="{...}" />
+                <marker date="1552509493105" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552509493105" expanded="true" signature="123:5832" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="280:373" ph="/* The triangles tell Unity how to build each section of the mesh joining ... */" />
+                <marker date="1552509493105" expanded="true" signature="436:544" ph="/* The UV list is unimportant right now but it tells Unity how the texture is ... */" />
+                <marker date="1552509493105" expanded="true" signature="819:956" ph="/* A mesh is made up of the vertices, triangles and UVs we are going to define, ... */" />
+                <marker date="1552509493105" expanded="true" signature="1336:1547" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="1611:2470" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="2528:2549" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="2624:3289" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="3334:4528" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4555:4945" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4645:4939" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4704:4929" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4735:4808" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4842:4915" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="4971:5519" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5026:5513" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5085:5503" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5127:5209" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5266:5352" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5398:5484" ph="{...}" />
+                <marker date="1552509493105" expanded="true" signature="5553:5830" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -124,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552507353976</updated>
-      <workItem from="1552507358531" duration="1865000" />
+      <workItem from="1552507358531" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1865000" />
+    <option name="totallyTimeSpent" value="2133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,30 +196,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VoxelGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+        <state relative-caret-position="649">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+          <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+          <caret line="144" column="10" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
           <folding>
-            <marker date="1552509225174" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552509225174" expanded="true" signature="123:4848" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="280:373" ph="/* The triangles tell Unity how to build each section of the mesh joining ... */" />
-            <marker date="1552509225174" expanded="true" signature="436:544" ph="/* The UV list is unimportant right now but it tells Unity how the texture is ... */" />
-            <marker date="1552509225174" expanded="true" signature="819:956" ph="/* A mesh is made up of the vertices, triangles and UVs we are going to define, ... */" />
-            <marker date="1552509225174" expanded="true" signature="1336:1547" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="1611:2470" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="2528:2549" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="2624:3289" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="3334:3855" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="3882:4272" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="3972:4266" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4031:4256" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4062:4135" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4169:4242" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4298:4846" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4353:4840" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4412:4830" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4454:4536" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4593:4679" ph="{...}" />
-            <marker date="1552509225174" expanded="true" signature="4725:4811" ph="{...}" />
+            <marker date="1552509493105" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552509493105" expanded="true" signature="123:5832" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="280:373" ph="/* The triangles tell Unity how to build each section of the mesh joining ... */" />
+            <marker date="1552509493105" expanded="true" signature="436:544" ph="/* The UV list is unimportant right now but it tells Unity how the texture is ... */" />
+            <marker date="1552509493105" expanded="true" signature="819:956" ph="/* A mesh is made up of the vertices, triangles and UVs we are going to define, ... */" />
+            <marker date="1552509493105" expanded="true" signature="1336:1547" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="1611:2470" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="2528:2549" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="2624:3289" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="3334:4528" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4555:4945" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4645:4939" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4704:4929" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4735:4808" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4842:4915" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="4971:5519" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5026:5513" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5085:5503" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5127:5209" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5266:5352" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5398:5484" ph="{...}" />
+            <marker date="1552509493105" expanded="true" signature="5553:5830" ph="{...}" />
           </folding>
         </state>
       </provider>
