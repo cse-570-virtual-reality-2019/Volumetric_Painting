@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VoxelGenerator : MonoBehaviour
+public class Procedural2DGeneration : MonoBehaviour
 {
     // This first list contains every vertex of the mesh that we are going to render
     public List<Vector3> newVertices = new List<Vector3>();
@@ -160,20 +160,36 @@ public class VoxelGenerator : MonoBehaviour
 
     void GenTerrain()
     {
-        blocks = new byte[10, 10];
+        blocks = new byte[50, 30];
 
         for (int px = 0; px < blocks.GetLength(0); ++px)
         {
+            int stone = Noise(px, 0, 5, 15, 1);
+            stone+= Noise(px,0, 10,30,1);
+//            stone+= Noise(px,0, 10,10,1);
+//            stone+=75;
+    
+            int dirt = Noise(px,0, 20,35,1);
+//            dirt+= Noise(px,0, 30,30,1);
+//            dirt+=75;
             for (int py = 0; py < blocks.GetLength(1); ++py)
             {
-                if (py == 5)
+                if (py < stone)
+                {
+                    blocks[px, py] = 1;
+                } 
+                else if (py < dirt)
                 {
                     blocks[px, py] = 2;
                 }
-                else if (py < 5)
-                {
-                    blocks[px, py] = 1;
-                }
+//                if (py == 5)
+//                {
+//                    blocks[px, py] = 2;
+//                }
+//                else if (py < 5)
+//                {
+//                    blocks[px, py] = 1;
+//                }
             }
         }
     }
@@ -219,5 +235,10 @@ public class VoxelGenerator : MonoBehaviour
         }
 
         return blocks[x, y];
+    }
+
+    int Noise(int x, int y, float scale, float mag, float exp)
+    {
+        return (int) (Mathf.Pow((Mathf.PerlinNoise(x / scale, y / scale) * mag), (exp)));
     }
 }
