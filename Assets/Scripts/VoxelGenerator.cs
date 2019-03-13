@@ -18,6 +18,10 @@ public class VoxelGenerator : MonoBehaviour
     // To hold the type of block
     public byte[,] blocks;
     
+    // Handle collider
+    public List<Vector3> colVertices = new List<Vector3>();
+    public List<int> colTriangles = new List<int>();
+    
     
     // A mesh is made up of the vertices, triangles and UVs we are going to define,
     // after we make them up we'll save them as this mesh
@@ -26,11 +30,17 @@ public class VoxelGenerator : MonoBehaviour
     private Vector2 tStone = new Vector2 (1, 0);
     private Vector2 tGrass = new Vector2 (0, 1);
     private int squareCount; // To count which square are we rendering
+    
+    // Handle collider
+    private int colCount;
+    private MeshCollider col;
 
     // Start is called before the first frame update
     void Start()
     {
         mesh = GetComponent<MeshFilter> ().mesh;
+        col = GetComponent<MeshCollider>();
+        
         GenTerrain();
         BuildMesh();
         UpdateMesh();
@@ -77,6 +87,16 @@ public class VoxelGenerator : MonoBehaviour
         mesh.uv = newUV.ToArray();
 //        mesh.Optimize ();
         mesh.RecalculateNormals ();
+        
+        // Handle mesgCoolider
+        Mesh newMesh = new Mesh();
+        newMesh.vertices = colVertices.ToArray();
+        newMesh.triangles = colTriangles.ToArray();
+        col.sharedMesh= newMesh;
+ 
+        colVertices.Clear();
+        colTriangles.Clear();
+        colCount=0;
 
         squareCount = 0;
         newVertices.Clear();
@@ -84,14 +104,33 @@ public class VoxelGenerator : MonoBehaviour
         newUV.Clear();
     }
     
+    void GenerateCollider(int x, int y){
+        colVertices.Add( new Vector3 (x  , y  , 1));
+        colVertices.Add( new Vector3 (x + 1 , y  , 1));
+        colVertices.Add( new Vector3 (x + 1 , y  , 0 ));
+        colVertices.Add( new Vector3 (x  , y  , 0 ));
+ 
+        colTriangles.Add(colCount * 4);
+        colTriangles.Add((colCount * 4) + 1);
+        colTriangles.Add((colCount * 4) + 3);
+        colTriangles.Add((colCount * 4) + 1);
+        colTriangles.Add((colCount * 4) + 2);
+        colTriangles.Add((colCount * 4) + 3);
+ 
+        ++colCount;
+    }
+    
     void GenTerrain(){
         blocks=new byte[10,10];
   
-        for(int px=0;px<blocks.GetLength(0);px++){
-            for(int py=0;py<blocks.GetLength(1);py++){
-                if(py==5){
+        for(int px=0; px < blocks.GetLength(0); ++px){
+            for(int py=0; py < blocks.GetLength(1); ++py){
+                if (py == 5) 
+                {
                     blocks[px,py]=2;
-                } else if(py<5){
+                }
+                else if (py < 5) 
+                {
                     blocks[px,py]=1;
                 }
             }
@@ -99,12 +138,19 @@ public class VoxelGenerator : MonoBehaviour
     }
     
     void BuildMesh(){
-        for(int px=0;px<blocks.GetLength(0);px++){
-            for(int py=0;py<blocks.GetLength(1);py++){
-    
-                if(blocks[px,py]==1){
+        for(int px=0; px < blocks.GetLength(0); ++px){
+            for(int py=0; py < blocks.GetLength(1); ++py){
+                if (blocks[px, py] != 0)
+                {
+                    GenerateCollider(px, py);
+                }
+                
+                if(blocks[px,py] == 1) 
+                {
                     GenerateSquare(px,py,tStone);
-                } else if(blocks[px,py]==2){
+                } 
+                else if(blocks[px,py] == 2) 
+                {
                     GenerateSquare(px,py,tGrass);
                 }
     
