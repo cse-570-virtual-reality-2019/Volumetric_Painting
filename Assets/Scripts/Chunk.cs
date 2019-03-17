@@ -20,7 +20,10 @@ public class Chunk : MonoBehaviour
     public GameObject worldGO;
     private World world;
     public int chunkSize = 16;
-
+    public int chunkX;
+    public int chunkY;
+    public int chunkZ;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +48,10 @@ public class Chunk : MonoBehaviour
 
 
     // User defined functions below this
+    byte Block(int x, int y, int z){
+        return world.Block(x+chunkX,y+chunkY,z+chunkZ);
+    }
+    
     void CubeTop(int x, int y, int z, byte block)
     {
         newVertices.Add(new Vector3(x, y, z + 1));
@@ -180,44 +187,44 @@ public class Chunk : MonoBehaviour
                 {
                     //This code will run for every block in the chunk
 
-                    if (world.Block(x, y, z) != 0)
+                    if (Block(x, y, z) != 0)
                     {
                         //If the block is solid
 
-                        if (world.Block(x, y + 1, z) == 0)
+                        if (Block(x, y + 1, z) == 0)
                         {
                             //Block above is air
-                            CubeTop(x, y, z, world.Block(x, y, z));
+                            CubeTop(x, y, z, Block(x, y, z));
                         }
 
-                        if (world.Block(x, y - 1, z) == 0)
+                        if (Block(x, y - 1, z) == 0)
                         {
                             //Block below is air
-                            CubeBot(x, y, z, world.Block(x, y, z));
+                            CubeBot(x, y, z, Block(x, y, z));
                         }
 
-                        if (world.Block(x + 1, y, z) == 0)
+                        if (Block(x + 1, y, z) == 0)
                         {
                             //Block east is air
-                            CubeEast(x, y, z, world.Block(x, y, z));
+                            CubeEast(x, y, z, Block(x, y, z));
                         }
 
-                        if (world.Block(x - 1, y, z) == 0)
+                        if (Block(x - 1, y, z) == 0)
                         {
                             //Block west is air
-                            CubeWest(x, y, z, world.Block(x, y, z));
+                            CubeWest(x, y, z, Block(x, y, z));
                         }
 
-                        if (world.Block(x, y, z + 1) == 0)
+                        if (Block(x, y, z + 1) == 0)
                         {
                             //Block north is air
-                            CubeNorth(x, y, z, world.Block(x, y, z));
+                            CubeNorth(x, y, z, Block(x, y, z));
                         }
 
-                        if (world.Block(x, y, z - 1) == 0)
+                        if (Block(x, y, z - 1) == 0)
                         {
                             //Block south is air
-                            CubeSouth(x, y, z, world.Block(x, y, z));
+                            CubeSouth(x, y, z, Block(x, y, z));
                         }
                     }
                 }
