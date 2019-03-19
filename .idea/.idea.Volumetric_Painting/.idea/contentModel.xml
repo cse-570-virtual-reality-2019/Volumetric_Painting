@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Chunk.cs" t="Include" />
           <e p="ModifyTerrain.cs" t="Include" />
+          <e p="Noise.cs" t="Include" />
           <e p="Procedural2DGeneration.cs" t="Include" />
           <e p="World.cs" t="Include" />
         </e>

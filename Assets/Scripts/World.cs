@@ -19,13 +19,22 @@ public class World : MonoBehaviour
 
         for (int x = 0; x < worldX; x++)
         {
-            for (int y = 0; y < worldY; y++)
+            for (int z = 0; z < worldZ; z++)
             {
-                for (int z = 0; z < worldZ; z++)
+                int stone = PerlinNoise(x, 0, z, 10, 3, 1.2f);
+                stone += PerlinNoise(x, 300, z, 20, 4, 0) + 10;
+                int dirt = PerlinNoise(x, 100, z, 50, 2, 0) + 1; //Added +1 to make sure minimum grass height is 1
+
+                for (int y = 0; y < worldY; y++)
                 {
-                    if (y <= 8)
+                    if (y <= stone)
                     {
                         data[x, y, z] = 1;
+                    }
+                    else if (y <= dirt + stone)
+                    {
+                        //Changed this line thanks to a comment
+                        data[x, y, z] = 2;
                     }
                 }
             }
@@ -71,5 +80,19 @@ public class World : MonoBehaviour
         }
 
         return data[x, y, z];
+    }
+
+    int PerlinNoise(int x, int y, int z, float scale, float height, float power)
+    {
+        float rValue;
+        rValue = Noise.Noise.GetNoise(((double) x) / scale, ((double) y) / scale, ((double) z) / scale);
+        rValue *= height;
+
+        if (power != 0)
+        {
+            rValue = Mathf.Pow(rValue, power);
+        }
+
+        return (int) rValue;
     }
 }
