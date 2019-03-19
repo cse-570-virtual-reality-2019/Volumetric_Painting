@@ -86,12 +86,12 @@ public class ModifyTerrain : MonoBehaviour
             Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
                 Color.green, 2);
         }
-//        else
-//        {
-//            AddBlockAt(ray.origin + (ray.direction * 4f), block);
-//            Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
-//                Color.green, 2);
-//        }
+        else
+        {
+            AddBlockAt(ray.origin + (ray.direction * 4f), block);
+            Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
+                Color.green, 2);
+        }
     }
 
     public void ReplaceBlockAt(RaycastHit hit, byte block)
@@ -114,7 +114,11 @@ public class ModifyTerrain : MonoBehaviour
 
     public void AddBlockAt(Vector3 point, byte block)
     {
+        Vector3 position = point;
+        position += Vector3.up * 0.5f;
         
+        SetBlockAt(position, block);
+
     }
 
     public void SetBlockAt(Vector3 position, byte block)
