@@ -24,6 +24,8 @@ public class Chunk : MonoBehaviour
     public int chunkX;
     public int chunkY;
     public int chunkZ;
+    public bool update;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +47,13 @@ public class Chunk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+    
+    void LateUpdate () {
+        if(update){
+            GenerateMesh();
+            update=false;
+        }
     }
 
 
@@ -244,7 +253,7 @@ public class Chunk : MonoBehaviour
         faceCount = 0;
     }
 
-    void GenerateMesh()
+    public void GenerateMesh()
     {
         for (int x = 0; x < chunkSize; x++)
         {
