@@ -8,6 +8,8 @@ public class ModifyTerrain : MonoBehaviour
 {
     World world;
     GameObject cameraGO;
+    public GameObject vive_controller_emulator;
+    public bool useViveEmulator = false;
 
     void Start()
     {
@@ -77,20 +79,28 @@ public class ModifyTerrain : MonoBehaviour
     public void AddBlockCursor(byte block)
     {
         //Adds the block specified where the mouse cursor is pointing
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (useViveEmulator)
         {
-            AddBlockAt(hit, block);
-            Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
-                Color.green, 2);
+            AddBlockAt(vive_controller_emulator.transform.position, block);
         }
         else
         {
-            AddBlockAt(ray.origin + (ray.direction * 4f), block);
-            Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
-                Color.green, 2);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit))
+            {
+                AddBlockAt(hit, block);
+                Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
+                    Color.green, 2);
+            }
+            else
+            {
+                AddBlockAt(ray.origin + (ray.direction * 4f), block);
+                Debug.DrawLine(ray.origin, ray.origin + (ray.direction * hit.distance),
+                    Color.green, 2);
+            }
         }
     }
 
@@ -116,9 +126,8 @@ public class ModifyTerrain : MonoBehaviour
     {
         Vector3 position = point;
         position += Vector3.up * 0.5f;
-        
-        SetBlockAt(position, block);
 
+        SetBlockAt(position, block);
     }
 
     public void SetBlockAt(Vector3 position, byte block)
@@ -151,30 +160,36 @@ public class ModifyTerrain : MonoBehaviour
         print("Updating: " + updateX + ", " + updateY + ", " + updateZ);
 
 //        world.chunks[updateX, updateY, updateZ].GenerateMesh();
-        world.chunks[updateX,updateY, updateZ].update=true;
-        
-        if(x-(world.chunkSize*updateX)==0 && updateX!=0){
-            world.chunks[updateX-1,updateY, updateZ].update=true;
+        world.chunks[updateX, updateY, updateZ].update = true;
+
+        if (x - (world.chunkSize * updateX) == 0 && updateX != 0)
+        {
+            world.chunks[updateX - 1, updateY, updateZ].update = true;
         }
- 
-        if(x-(world.chunkSize*updateX)==15 && updateX!=world.chunks.GetLength(0)-1){
-            world.chunks[updateX+1,updateY, updateZ].update=true;
+
+        if (x - (world.chunkSize * updateX) == 15 && updateX != world.chunks.GetLength(0) - 1)
+        {
+            world.chunks[updateX + 1, updateY, updateZ].update = true;
         }
- 
-        if(y-(world.chunkSize*updateY)==0 && updateY!=0){
-            world.chunks[updateX,updateY-1, updateZ].update=true;
+
+        if (y - (world.chunkSize * updateY) == 0 && updateY != 0)
+        {
+            world.chunks[updateX, updateY - 1, updateZ].update = true;
         }
- 
-        if(y-(world.chunkSize*updateY)==15 && updateY!=world.chunks.GetLength(1)-1){
-            world.chunks[updateX,updateY+1, updateZ].update=true;
+
+        if (y - (world.chunkSize * updateY) == 15 && updateY != world.chunks.GetLength(1) - 1)
+        {
+            world.chunks[updateX, updateY + 1, updateZ].update = true;
         }
-   
-        if(z-(world.chunkSize*updateZ)==0 && updateZ!=0){
-            world.chunks[updateX,updateY, updateZ-1].update=true;
+
+        if (z - (world.chunkSize * updateZ) == 0 && updateZ != 0)
+        {
+            world.chunks[updateX, updateY, updateZ - 1].update = true;
         }
-   
-        if(z-(world.chunkSize*updateZ)==15 && updateZ!=world.chunks.GetLength(2)-1){
-            world.chunks[updateX,updateY, updateZ+1].update=true;
+
+        if (z - (world.chunkSize * updateZ) == 15 && updateZ != world.chunks.GetLength(2) - 1)
+        {
+            world.chunks[updateX, updateY, updateZ + 1].update = true;
         }
     }
 }
