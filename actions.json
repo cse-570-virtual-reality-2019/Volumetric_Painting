@@ -57,6 +57,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/colorSelector",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

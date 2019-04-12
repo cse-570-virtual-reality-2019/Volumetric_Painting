@@ -17,6 +17,7 @@
           <e p="Chunk.cs" t="Include" />
           <e p="ModifyTerrain.cs" t="Include" />
           <e p="Noise.cs" t="Include" />
+          <e p="Pointer.cs" t="Include" />
           <e p="Procedural2DGeneration.cs" t="Include" />
           <e p="ViveInputTest.cs" t="Include" />
           <e p="World.cs" t="Include" />

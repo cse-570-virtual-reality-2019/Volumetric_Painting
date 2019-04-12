@@ -13,8 +13,11 @@ public class ViveInputTest : MonoBehaviour
     public GameObject cameraRig;
     public GameObject camera;
     public GameObject world;
+    public GameObject canvas;
     public float speed = 2;
     public float offset = 2;
+    public float buttonRate;
+    private float nextButtonPress;
     
     // Start is called before the first frame update
     void Start () {  } 
@@ -79,6 +82,15 @@ public class ViveInputTest : MonoBehaviour
         {
             cameraRig.transform.position += cameraRight * Time.deltaTime * speed;
         }
+
+
+        if (SteamVR_Actions._default.colorSelector.GetState(SteamVR_Input_Sources.RightHand) && Time.time > nextButtonPress)
+        {
+            print("Center trackpad pressed");
+            canvas.SetActive(!canvas.activeInHierarchy);
+            nextButtonPress = Time.time + buttonRate;
+        }
+
 
         /*Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any);
 

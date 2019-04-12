@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Chunk.cs" />
     <Compile Include="Assets\Scripts\ModifyTerrain.cs" />
     <Compile Include="Assets\Scripts\Noise.cs" />
+    <Compile Include="Assets\Scripts\Pointer.cs" />
     <Compile Include="Assets\Scripts\Procedural2DGeneration.cs" />
     <Compile Include="Assets\Scripts\ViveInputTest.cs" />
     <Compile Include="Assets\Scripts\World.cs" />

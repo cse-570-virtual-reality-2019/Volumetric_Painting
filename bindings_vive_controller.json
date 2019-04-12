@@ -214,6 +214,9 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/colorselector"
+                  },
                   "east" : {
                      "output" : "/actions/default/in/right"
                   },
@@ -235,6 +238,9 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/colorselector"
+                  },
                   "east" : {
                      "output" : "/actions/default/in/right"
                   },
