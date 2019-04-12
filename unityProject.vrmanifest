@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.introductiontohtcvivefinal.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\anubhav16013\\Downloads\\Volumetric_Painting\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Introduction To HTC Vive - Final [Testing]"
+        }
+      }
+    }
+  ]
+}
