@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4156270-cb40-4026-bccd-002c2fe79508" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/indexLayout.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/indexLayout.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VoxelGridTest.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/VoxelGridTest.unity" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="$PROJECT_DIR$/Packages/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/041d47-mainStage.json" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/041d47-mainStage.json" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33f1f5-mainStage.json" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33f1f5-mainStage.json" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/69/6921e865a38dfcb429dc8809b5ede0b1" afterPath="$PROJECT_DIR$/Library/metadata/69/6921e865a38dfcb429dc8809b5ede0b1" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change beforePath="$PROJECT_DIR$/SteamVR.csproj" afterPath="$PROJECT_DIR$/SteamVR.csproj" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Actions.csproj" afterPath="$PROJECT_DIR$/SteamVR_Actions.csproj" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Editor.csproj" afterPath="$PROJECT_DIR$/SteamVR_Editor.csproj" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Input_Editor.csproj" afterPath="$PROJECT_DIR$/SteamVR_Input_Editor.csproj" />
+      <change beforePath="$PROJECT_DIR$/SteamVR_Windows_EditorHelper.csproj" afterPath="$PROJECT_DIR$/SteamVR_Windows_EditorHelper.csproj" />
+      <change beforePath="$PROJECT_DIR$/Volumetric_Painting.sln" afterPath="$PROJECT_DIR$/Volumetric_Painting.sln" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,12 +39,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chunk.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chunk.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555046025081" expanded="true" signature="114:8066" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="802:1203" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="982:1197" ph="/* CubeTop(0, 0, 0, 0); ... */" />
+                <marker date="1555046025081" expanded="true" signature="1261:1273" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="1302:1393" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="1322:1387" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="1472:1548" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="1599:2137" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="1812:1875" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="1957:2010" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="2048:2104" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="2190:2742" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="2419:2482" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="2565:2618" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="2656:2709" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="2794:3346" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3023:3086" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="3168:3221" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3259:3312" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3399:3935" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3612:3675" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="3757:3810" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3848:3901" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="3987:4522" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="4199:4262" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="4344:4397" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="4435:4488" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="4573:5125" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="4802:4865" ph="/* Vector2 texturePos; ... */" />
+                <marker date="1555046025081" expanded="true" signature="4947:5000" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="5038:5091" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="5160:5834" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="5857:6255" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6287:8064" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6337:8035" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6395:8025" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6461:8011" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6595:7993" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6719:6882" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="6936:7099" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="7153:7316" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="7370:7533" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="7587:7752" ph="{...}" />
+                <marker date="1555046025081" expanded="true" signature="7806:7971" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +108,7 @@
       <file leaf-file-name="ModifyTerrain.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="891">
               <caret line="128" column="87" lean-forward="false" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
               <folding>
                 <marker date="1555046025081" expanded="false" signature="6:138" ph="..." />
@@ -105,19 +150,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViveInputTest.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViveInputTest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
-                <marker date="1555049201075" expanded="false" signature="6:94" ph="..." />
-                <marker date="1555049201075" expanded="true" signature="138:1863" ph="{...}" />
-                <marker date="1555049201075" expanded="true" signature="665:1861" ph="{...}" />
-                <marker date="1555049201075" expanded="true" signature="680:972" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
-                <marker date="1555049201075" expanded="true" signature="1201:1426" ph="{...}" />
-                <marker date="1555049201075" expanded="true" signature="1462:1673" ph="{...}" />
-                <marker date="1555049201075" expanded="true" signature="1801:1855" ph="{...}" />
+                <marker date="1555051422463" expanded="false" signature="6:94" ph="..." />
+                <marker date="1555051422463" expanded="true" signature="138:3090" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="650:3088" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="872:1164" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
+                <marker date="1555051422463" expanded="true" signature="1462:1694" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="1730:1949" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="2131:2274" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="2377:2486" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="2589:2690" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="2794:2896" ph="{...}" />
+                <marker date="1555051422463" expanded="true" signature="2906:3082" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
               </folding>
             </state>
           </provider>
@@ -166,7 +215,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="959" />
     <option name="width" value="968" />
     <option name="height" value="1047" />
@@ -250,12 +299,12 @@
       <workItem from="1552507358531" duration="4937000" />
       <workItem from="1552998244946" duration="2099000" />
       <workItem from="1553020863847" duration="1427000" />
-      <workItem from="1555046732648" duration="2903000" />
+      <workItem from="1555046732648" duration="4899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12724000" />
+    <option name="totallyTimeSpent" value="14720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,7 +316,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="0" width="968" height="1047" extended-state="0" />
+    <frame x="959" y="0" width="968" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -348,7 +397,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555046025081" expanded="true" signature="114:8066" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="802:1203" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="982:1197" ph="/* CubeTop(0, 0, 0, 0); ... */" />
+            <marker date="1555046025081" expanded="true" signature="1261:1273" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1302:1393" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1322:1387" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1472:1548" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1599:2137" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1812:1875" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="1957:2010" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2048:2104" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2190:2742" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2419:2482" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="2565:2618" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2656:2709" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2794:3346" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3023:3086" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="3168:3221" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3259:3312" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3399:3935" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3612:3675" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="3757:3810" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3848:3901" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3987:4522" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4199:4262" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="4344:4397" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4435:4488" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4573:5125" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4802:4865" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="4947:5000" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5038:5091" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5160:5834" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5857:6255" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6287:8064" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6337:8035" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6395:8025" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6461:8011" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6595:7993" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6719:6882" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6936:7099" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7153:7316" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7370:7533" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7587:7752" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7806:7971" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,17 +532,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="279">
+          <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <marker date="1555051422463" expanded="false" signature="6:94" ph="..." />
+            <marker date="1555051422463" expanded="true" signature="138:3090" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="650:3088" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="872:1164" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
+            <marker date="1555051422463" expanded="true" signature="1462:1694" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="1730:1949" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="2131:2274" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="2377:2486" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="2589:2690" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="2794:2896" ph="{...}" />
+            <marker date="1555051422463" expanded="true" signature="2906:3082" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="891">
           <caret line="128" column="87" lean-forward="false" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
           <folding>
             <marker date="1555046025081" expanded="false" signature="6:138" ph="..." />
@@ -488,18 +595,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <marker date="1555049201075" expanded="false" signature="6:94" ph="..." />
-            <marker date="1555049201075" expanded="true" signature="138:1863" ph="{...}" />
-            <marker date="1555049201075" expanded="true" signature="665:1861" ph="{...}" />
-            <marker date="1555049201075" expanded="true" signature="680:972" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
-            <marker date="1555049201075" expanded="true" signature="1201:1426" ph="{...}" />
-            <marker date="1555049201075" expanded="true" signature="1462:1673" ph="{...}" />
-            <marker date="1555049201075" expanded="true" signature="1801:1855" ph="{...}" />
+            <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555046025081" expanded="true" signature="114:8066" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="802:1203" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="982:1197" ph="/* CubeTop(0, 0, 0, 0); ... */" />
+            <marker date="1555046025081" expanded="true" signature="1261:1273" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1302:1393" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1322:1387" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1472:1548" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1599:2137" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1812:1875" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="1957:2010" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2048:2104" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2190:2742" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2419:2482" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="2565:2618" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2656:2709" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="2794:3346" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3023:3086" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="3168:3221" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3259:3312" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3399:3935" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3612:3675" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="3757:3810" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3848:3901" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3987:4522" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4199:4262" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="4344:4397" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4435:4488" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4573:5125" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="4802:4865" ph="/* Vector2 texturePos; ... */" />
+            <marker date="1555046025081" expanded="true" signature="4947:5000" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5038:5091" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5160:5834" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="5857:6255" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6287:8064" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6337:8035" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6395:8025" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6461:8011" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6595:7993" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6719:6882" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="6936:7099" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7153:7316" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7370:7533" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7587:7752" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="7806:7971" ph="{...}" />
           </folding>
         </state>
       </provider>
