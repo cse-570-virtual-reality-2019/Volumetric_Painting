@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\anubhav16013\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Volumetric_Painting.-2013122320.00" t="ExcludeRecursive" />
-    <e p="C:\Users\anubhav16013\Downloads\Volumetric_Painting" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\anubh\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\anubh\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Volumetric_Painting.144132037.00" t="ExcludeRecursive" />
+    <e p="E:\dev\UnityProjects\Volumetric_Painting" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Chunk.cs" t="Include" />
           <e p="ModifyTerrain.cs" t="Include" />
@@ -20,6 +13,7 @@
           <e p="Pointer.cs" t="Include" />
           <e p="Procedural2DGeneration.cs" t="Include" />
           <e p="ViveInputTest.cs" t="Include" />
+          <e p="VRInputModule.cs" t="Include" />
           <e p="World.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
