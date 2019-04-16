@@ -99,4 +99,20 @@ public class ViveInputTest : MonoBehaviour
             print(touchpadValue);
         }*/
     }
+    
+    public void ButtonClickHandler(int position)
+    {
+        if (position == 0)
+        {
+            // Change texture to 0
+            world.GetComponent<Chunk>().UpdateColor(3, 3);
+        }
+        else if (position == 1)
+        {
+
+            world.GetComponent<Chunk>().UpdateColor(0, 0);
+
+            // Change texture to 1
+        }
+    }
 }

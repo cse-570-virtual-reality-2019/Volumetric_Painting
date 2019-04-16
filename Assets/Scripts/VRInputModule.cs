@@ -11,6 +11,7 @@ public class VRInputModule : BaseInputModule
     public SteamVR_Action_Boolean m_ClickAction;
 
     private GameObject m_CurrentObject = null;
+    public GameObject world;
     private PointerEventData m_Data = null;
     
     
@@ -109,14 +110,6 @@ public class VRInputModule : BaseInputModule
         data.pressPosition = Vector2.zero;
         data.pointerPress = null;
         data.rawPointerPress = null;
-    }
-
-    public void ButtonClickHandler(int position)
-    {
-        if (position == 0)
-        {
-            print("1 clicked");
-        }
     }
     
 }

@@ -9,9 +9,9 @@ public class Chunk : MonoBehaviour
     private List<Vector2> newUV = new List<Vector2>();
 
     private float tUnit = 0.25f;
-    private Vector2 tStone = new Vector2(1, 0);
-    private Vector2 tGrass = new Vector2(0, 1);
-    private Vector2 tGrassTop = new Vector2(1, 1);
+    public Vector2 tStone = new Vector2(2, 2); // Color for new box
+    public Vector2 tGrass = new Vector2(2, 2);
+    public Vector2 tGrassTop = new Vector2(2, 2); 
 
     private Mesh mesh;
     private MeshCollider col;
@@ -26,6 +26,13 @@ public class Chunk : MonoBehaviour
     public int chunkZ;
     public bool update;
 
+    public void UpdateColor(int x, int y)
+    {
+        tStone = new Vector2(x, y);
+        tGrass = new Vector2(x, y);
+        tGrassTop = new Vector2(x, y);
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +40,7 @@ public class Chunk : MonoBehaviour
         world = worldGO.GetComponent("World") as World;
         mesh = GetComponent<MeshFilter>().mesh;
         col = GetComponent<MeshCollider>();
-
+        
         GenerateMesh();
 //        CubeTop(0, 0, 0, 0);
 //        CubeNorth(0, 0, 0, 0);
@@ -75,6 +82,7 @@ public class Chunk : MonoBehaviour
 //
 //        texturePos = tStone;
         Vector2 texturePos = new Vector2(0, 0);
+        
 
         if (Block(x, y, z) == 1)
         {
@@ -86,6 +94,7 @@ public class Chunk : MonoBehaviour
         }
 
         Cube(texturePos);
+        //Cube(textureGlobal);
     }
 
     void CubeNorth(int x, int y, int z, byte block)
@@ -112,6 +121,8 @@ public class Chunk : MonoBehaviour
         }
 
         Cube(texturePos);
+        //Cube(textureGlobal);
+
     }
 
     void CubeEast(int x, int y, int z, byte block)
@@ -138,6 +149,7 @@ public class Chunk : MonoBehaviour
 
 
         Cube(texturePos);
+        
     }
 
     void CubeSouth(int x, int y, int z, byte block)
