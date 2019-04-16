@@ -51,13 +51,18 @@ public class VRInputModule : BaseInputModule
         HandlePointerExitAndEnter(m_Data, m_CurrentObject);
 
         // Press
-        if (m_ClickAction.GetStateDown(m_TargetSource))
+        /*if (SteamVR_Actions._default.textureSelector.GetState(SteamVR_Input_Sources.RightHand) == true) 
+        {
+            //print("Moving forward");
+            ProcessPress(m_Data);
+        }*/
+         if (m_ClickAction.GetStateDown(m_TargetSource))
         {
             ProcessPress(m_Data);
         }
 
         // Release
-        if (m_ClickAction.GetStateDown(m_TargetSource))
+        if (m_ClickAction.GetStateUp(m_TargetSource))
         {
             ProcessRelease(m_Data);
         }
@@ -76,9 +81,11 @@ public class VRInputModule : BaseInputModule
         GameObject newPointerPress =
             ExecuteEvents.ExecuteHierarchy(m_CurrentObject, data, ExecuteEvents.pointerDownHandler);
 
-        if (newPointerPress == null)
+        if (newPointerPress == null) {
             newPointerPress = ExecuteEvents.GetEventHandler<IPointerClickHandler>(m_CurrentObject);
-
+               print("ENter IFFF");
+        }
+        
         data.pressPosition = data.position;
         data.pointerPress = newPointerPress;
         data.rawPointerPress = m_CurrentObject;
@@ -94,6 +101,7 @@ public class VRInputModule : BaseInputModule
         if (data.pointerPress == pointerUpHandler)
         {
             ExecuteEvents.Execute(data.pointerPress, data, ExecuteEvents.pointerClickHandler);
+            print("ENter IFFF");
         }
         
         eventSystem.SetSelectedGameObject(null);
@@ -102,4 +110,13 @@ public class VRInputModule : BaseInputModule
         data.pointerPress = null;
         data.rawPointerPress = null;
     }
+
+    public void ButtonClickHandler(int position)
+    {
+        if (position == 0)
+        {
+            print("1 clicked");
+        }
+    }
+    
 }

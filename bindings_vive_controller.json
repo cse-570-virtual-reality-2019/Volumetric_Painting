@@ -124,7 +124,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grabgrip"
+                     "output" : "/actions/default/in/textureselector"
                   }
                },
                "mode" : "button",
@@ -183,7 +183,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grabgrip"
+                     "output" : "/actions/default/in/textureselector"
                   }
                },
                "mode" : "button",
