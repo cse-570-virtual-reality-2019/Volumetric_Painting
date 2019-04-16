@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e4156270-cb40-4026-bccd-002c2fe79508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Volumetric_Painting/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VoxelGridTest.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/VoxelGridTest.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chunk.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Chunk.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33f1f5-mainStage.json" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33f1f5-mainStage.json" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/08/085b9a143bb1f714f84549947aea4108" afterPath="$PROJECT_DIR$/Library/metadata/08/085b9a143bb1f714f84549947aea4108" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/69/6921e865a38dfcb429dc8809b5ede0b1" afterPath="$PROJECT_DIR$/Library/metadata/69/6921e865a38dfcb429dc8809b5ede0b1" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/db/dba7fb271c1717a45a87cf0ec062a169" afterPath="$PROJECT_DIR$/Library/metadata/db/dba7fb271c1717a45a87cf0ec062a169" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +42,8 @@
       <file leaf-file-name="Chunk.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="293">
+              <caret line="101" column="23" lean-forward="false" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding>
                 <marker date="1555399846974" expanded="false" signature="6:78" ph="..." />
                 <marker date="1555399846974" expanded="true" signature="114:8340" ph="{...}" />
@@ -105,8 +99,8 @@
       <file leaf-file-name="VRInputModule.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+            <state relative-caret-position="210">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <marker date="1555399519318" expanded="true" signature="6:126" ph="..." />
                 <marker date="1555399519318" expanded="true" signature="172:3128" ph="{...}" />
@@ -130,8 +124,8 @@
       <file leaf-file-name="ModifyTerrain.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="194" column="34" lean-forward="false" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
+            <state relative-caret-position="310">
+              <caret line="183" column="60" lean-forward="false" selection-start-line="183" selection-start-column="60" selection-end-line="183" selection-end-column="60" />
               <folding>
                 <marker date="1555398904070" expanded="false" signature="6:138" ph="..." />
                 <marker date="1555398904070" expanded="true" signature="182:7100" ph="{...}" />
@@ -175,24 +169,24 @@
       <file leaf-file-name="ViveInputTest.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+            <state relative-caret-position="415">
+              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
               <folding>
-                <marker date="1555399884581" expanded="false" signature="6:94" ph="..." />
-                <marker date="1555399884581" expanded="true" signature="138:3844" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="744:3487" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="966:1258" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
-                <marker date="1555399884581" expanded="true" signature="1556:1788" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="1824:2043" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="2225:2368" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="2471:2580" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="2683:2784" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="2888:2990" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="3117:3294" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="3305:3481" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
-                <marker date="1555399884581" expanded="true" signature="3541:3842" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="3574:3688" ph="{...}" />
-                <marker date="1555399884581" expanded="true" signature="3720:3836" ph="{...}" />
+                <marker date="1555400795144" expanded="false" signature="6:94" ph="..." />
+                <marker date="1555400795144" expanded="true" signature="138:4346" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="791:4029" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="1013:1305" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
+                <marker date="1555400795144" expanded="true" signature="1603:2330" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="2366:2585" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="2767:2910" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="3013:3122" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="3225:3326" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="3430:3532" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="3659:3836" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="3847:4023" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
+                <marker date="1555400795144" expanded="true" signature="4083:4344" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="4116:4211" ph="{...}" />
+                <marker date="1555400795144" expanded="true" signature="4243:4338" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,8 +195,8 @@
       <file leaf-file-name="World.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/World.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="570">
+              <caret line="82" column="59" lean-forward="false" selection-start-line="82" selection-start-column="59" selection-end-line="82" selection-end-column="59" />
               <folding>
                 <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
                 <marker date="1555046025081" expanded="true" signature="114:3983" ph="{...}" />
@@ -256,6 +250,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>texturePos</find>
+      <find>AddBlock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -279,11 +274,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Procedural2DGeneration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Voxel3DGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Noise.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/World.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chunk.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs" />
       </list>
     </option>
@@ -382,12 +377,12 @@
       <workItem from="1555053383733" duration="1379000" />
       <workItem from="1555161942121" duration="1100000" />
       <workItem from="1555176745847" duration="666000" />
-      <workItem from="1555395061020" duration="4869000" />
+      <workItem from="1555395061020" duration="5986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23894000" />
+    <option name="totallyTimeSpent" value="25011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,100 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-          <folding>
-            <marker date="1555399519318" expanded="true" signature="6:126" ph="..." />
-            <marker date="1555399519318" expanded="true" signature="172:3128" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="501:522" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="580:601" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="627:722" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="758:1748" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="1308:1501" ph="/* if (SteamVR_Actions._default.textureSelector.GetState(SteamVR_Input_Sources.RightHand) == true) ... */" />
-            <marker date="1555399519318" expanded="true" signature="1558:1612" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="1686:1742" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="1787:1822" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="1876:2453" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="2154:2301" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="2509:3121" ph="{...}" />
-            <marker date="1555399519318" expanded="true" signature="2794:2942" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="194" column="34" lean-forward="false" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
-          <folding>
-            <marker date="1555398904070" expanded="false" signature="6:138" ph="..." />
-            <marker date="1555398904070" expanded="true" signature="182:7100" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="572:759" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="786:2044" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="833:888" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="930:981" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="1017:2038" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="1209:1347" ph="/* if (Input.GetKey(&quot;w&quot;)) ... */" />
-            <marker date="1555398904070" expanded="true" signature="1381:1886" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="1434:1634" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="1634:1875" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="1919:2031" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="2105:2433" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="2367:2427" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="2490:2918" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="2758:2814" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="2966:3343" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="3387:4210" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="3493:3589" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="3602:4204" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="3761:3954" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="3971:4194" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="4270:4520" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="4576:4834" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="4889:5008" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="5066:5309" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="5370:5562" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="5614:7098" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="6124:6215" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="6311:6402" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="6469:6560" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="6656:6747" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="6814:6905" ph="{...}" />
-            <marker date="1555398904070" expanded="true" signature="7001:7092" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555046025081" expanded="true" signature="114:3983" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="424:3294" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="521:1264" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="576:1254" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="882:1240" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="936:1023" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="1071:1222" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="1266:1442" ph="/* chunks = new GameObject[Mathf.FloorToInt(worldX / chunkSize), ... */" />
-            <marker date="1555046025081" expanded="true" signature="1652:3288" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="1720:3278" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="1796:3264" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="1815:2026" ph="/* chunks[x, y, z] = Instantiate(chunk, ... */" />
-            <marker date="1555046025081" expanded="true" signature="2264:2661" ph="/* Chunk newChunkScript = chunks[x, y, z].GetComponent(&quot;Chunk&quot;) as Chunk; ... */" />
-            <marker date="1555046025081" expanded="true" signature="3352:3364" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="3438:3612" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="3526:3575" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="3694:3981" ph="{...}" />
-            <marker date="1555046025081" expanded="true" signature="3878:3945" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChunkScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-945">
@@ -685,10 +586,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInputModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1555399519318" expanded="true" signature="6:126" ph="..." />
+            <marker date="1555399519318" expanded="true" signature="172:3128" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="501:522" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="580:601" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="627:722" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="758:1748" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="1308:1501" ph="/* if (SteamVR_Actions._default.textureSelector.GetState(SteamVR_Input_Sources.RightHand) == true) ... */" />
+            <marker date="1555399519318" expanded="true" signature="1558:1612" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="1686:1742" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="1787:1822" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="1876:2453" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="2154:2301" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="2509:3121" ph="{...}" />
+            <marker date="1555399519318" expanded="true" signature="2794:2942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="293">
+          <caret line="101" column="23" lean-forward="false" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding>
             <marker date="1555399846974" expanded="false" signature="6:78" ph="..." />
             <marker date="1555399846974" expanded="true" signature="114:8340" ph="{...}" />
@@ -740,26 +664,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ModifyTerrain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="183" column="60" lean-forward="false" selection-start-line="183" selection-start-column="60" selection-end-line="183" selection-end-column="60" />
+          <folding>
+            <marker date="1555398904070" expanded="false" signature="6:138" ph="..." />
+            <marker date="1555398904070" expanded="true" signature="182:7100" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="572:759" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="786:2044" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="833:888" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="930:981" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="1017:2038" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="1209:1347" ph="/* if (Input.GetKey(&quot;w&quot;)) ... */" />
+            <marker date="1555398904070" expanded="true" signature="1381:1886" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="1434:1634" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="1634:1875" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="1919:2031" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="2105:2433" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="2367:2427" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="2490:2918" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="2758:2814" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="2966:3343" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="3387:4210" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="3493:3589" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="3602:4204" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="3761:3954" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="3971:4194" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="4270:4520" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="4576:4834" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="4889:5008" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="5066:5309" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="5370:5562" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="5614:7098" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="6124:6215" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="6311:6402" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="6469:6560" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="6656:6747" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="6814:6905" ph="{...}" />
+            <marker date="1555398904070" expanded="true" signature="7001:7092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="82" column="59" lean-forward="false" selection-start-line="82" selection-start-column="59" selection-end-line="82" selection-end-column="59" />
+          <folding>
+            <marker date="1555046025081" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555046025081" expanded="true" signature="114:3983" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="424:3294" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="521:1264" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="576:1254" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="882:1240" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="936:1023" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1071:1222" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1266:1442" ph="/* chunks = new GameObject[Mathf.FloorToInt(worldX / chunkSize), ... */" />
+            <marker date="1555046025081" expanded="true" signature="1652:3288" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1720:3278" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1796:3264" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="1815:2026" ph="/* chunks[x, y, z] = Instantiate(chunk, ... */" />
+            <marker date="1555046025081" expanded="true" signature="2264:2661" ph="/* Chunk newChunkScript = chunks[x, y, z].GetComponent(&quot;Chunk&quot;) as Chunk; ... */" />
+            <marker date="1555046025081" expanded="true" signature="3352:3364" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3438:3612" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3526:3575" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3694:3981" ph="{...}" />
+            <marker date="1555046025081" expanded="true" signature="3878:3945" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ViveInputTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+        <state relative-caret-position="415">
+          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
           <folding>
-            <marker date="1555399884581" expanded="false" signature="6:94" ph="..." />
-            <marker date="1555399884581" expanded="true" signature="138:3844" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="744:3487" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="966:1258" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
-            <marker date="1555399884581" expanded="true" signature="1556:1788" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="1824:2043" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="2225:2368" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="2471:2580" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="2683:2784" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="2888:2990" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="3117:3294" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="3305:3481" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
-            <marker date="1555399884581" expanded="true" signature="3541:3842" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="3574:3688" ph="{...}" />
-            <marker date="1555399884581" expanded="true" signature="3720:3836" ph="{...}" />
+            <marker date="1555400795144" expanded="false" signature="6:94" ph="..." />
+            <marker date="1555400795144" expanded="true" signature="138:4346" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="791:4029" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="1013:1305" ph="/* if (SteamVR_Actions._default.Teleport.GetStateDown(SteamVR_Input_Sources.RightHand)) ... */" />
+            <marker date="1555400795144" expanded="true" signature="1603:2330" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="2366:2585" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="2767:2910" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="3013:3122" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="3225:3326" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="3430:3532" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="3659:3836" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="3847:4023" ph="/* Vector2 touchpadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any); ... */" />
+            <marker date="1555400795144" expanded="true" signature="4083:4344" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="4116:4211" ph="{...}" />
+            <marker date="1555400795144" expanded="true" signature="4243:4338" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -18,6 +18,7 @@ public class ViveInputTest : MonoBehaviour
     public float offset = 2;
     public float buttonRate;
     private float nextButtonPress;
+    public Vector2 texture = new Vector2(0,0);
     
     // Start is called before the first frame update
     void Start () {  } 
@@ -49,6 +50,12 @@ public class ViveInputTest : MonoBehaviour
             Vector3 position = controllerRight.gameObject.transform.position;
             position += cameraForward * offset;
             world.GetComponent<ModifyTerrain>().AddBlockAt(position, 1);
+            var x = Mathf.RoundToInt(position.x) / world.GetComponent<World>().chunkSize;
+            var y = Mathf.RoundToInt(position.y) / world.GetComponent<World>().chunkSize;
+            var z = Mathf.RoundToInt(position.z) / world.GetComponent<World>().chunkSize;
+            world.GetComponent<World>().chunks[x, y, z].tStone = texture;
+            world.GetComponent<World>().chunks[x, y, z].tGrass = texture;
+            world.GetComponent<World>().chunks[x, y, z].tGrassTop = texture;
             
         }
 
@@ -105,13 +112,11 @@ public class ViveInputTest : MonoBehaviour
         if (position == 0)
         {
             // Change texture to 0
-            world.GetComponent<Chunk>().UpdateColor(3, 3);
+            texture = new Vector2(3,3);
         }
         else if (position == 1)
         {
-
-            world.GetComponent<Chunk>().UpdateColor(0, 0);
-
+            texture = new Vector2(1,1);
             // Change texture to 1
         }
     }
