@@ -25,7 +25,7 @@ public class World : MonoBehaviour
             for (int z = 0; z < worldZ; z++)
             {
                 int stone = PerlinNoise(x, 0, z, 10, 0, 1.2f);
-                stone += PerlinNoise(x, 300, z, 20, 0, 0) + 10;
+                stone += PerlinNoise(x, 300, z, 20, 0, 0) + 1;
                 int dirt = PerlinNoise(x, 100, z, 50, 0, 0) + 1; //Added +1 to make sure minimum grass height is 1
 
                 for (int y = 0; y < worldY; y++)

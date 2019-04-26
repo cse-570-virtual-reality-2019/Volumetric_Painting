@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using Valve.VR;
 
@@ -143,6 +146,37 @@ public class ViveInputTest : MonoBehaviour
             voxelPig.transform.position = new Vector3(location.x, voxelPig.transform.position.y, location.z);
             voxelPig.SetActive(!voxelPig.activeInHierarchy);
 
-        }
+        } 
+        else if (position == 4)
+        {
+            // Store xyz of pig and car in a file.
+            //print("Saving");
+            var positions = new StringBuilder();
+            positions.Append(voxelCar.transform.position.x + "," + 
+                             voxelCar.transform.position.y + "," +
+                             voxelCar.transform.position.z + ";" + 
+                             voxelCar.activeInHierarchy + "\n");
+            
+            positions.Append(voxelPig.transform.position.x + "," +
+                             voxelPig.transform.position.y + "," +
+                             voxelPig.transform.position.z + ";" + 
+                             voxelPig.activeInHierarchy + "\n");
+            File.WriteAllText(Application.dataPath + "/saveState.csv", positions.ToString());
+        } 
+        else if (position == 5)
+        {
+            string[] lines = File.ReadAllLines(Application.dataPath + "/saveState.csv");
+            string[] voxelCarPosition = lines[0].Split(';');
+            string[] locationVoxelCar = voxelCarPosition[0].Split(',');
+            voxelCar.transform.position = new Vector3(float.Parse(locationVoxelCar[0]), float.Parse(locationVoxelCar[1]), float.Parse(locationVoxelCar[2]));
+            voxelCar.SetActive(bool.Parse(voxelCarPosition[1]));
+            
+            string[] voxelPigPosition = lines[1].Split(';');
+            string[] locationVoxelPig = voxelPigPosition[0].Split(',');
+            voxelPig.transform.position = new Vector3(float.Parse(locationVoxelPig[0]), float.Parse(locationVoxelPig[1]), float.Parse(locationVoxelPig[2]));
+            voxelPig.SetActive(bool.Parse(voxelPigPosition[1]));
+
+        } 
     }
 }
+
