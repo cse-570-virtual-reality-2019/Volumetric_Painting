@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using Valve.VR;
 
@@ -14,11 +15,16 @@ public class ViveInputTest : MonoBehaviour
     public GameObject camera;
     public GameObject world;
     public GameObject canvas;
+    public GameObject pointer;
     public float speed = 2;
     public float offset = 2;
     public float buttonRate;
     private float nextButtonPress;
     public Vector2 texture = new Vector2(0,0);
+    public GameObject voxelCar;
+    public GameObject voxelPig;
+    private bool voxelCarPresent = false;
+    private bool voxelPigPresent = false;
     
     // Start is called before the first frame update
     void Start () {  } 
@@ -95,6 +101,7 @@ public class ViveInputTest : MonoBehaviour
         {
             print("Center trackpad pressed");
             canvas.SetActive(!canvas.activeInHierarchy);
+            pointer.SetActive(!pointer.activeInHierarchy);
             nextButtonPress = Time.time + buttonRate;
         }
 
@@ -118,6 +125,24 @@ public class ViveInputTest : MonoBehaviour
         {
             texture = new Vector2(1,1);
             // Change texture to 1
+        }
+        else if (position == 2)
+        {
+            Vector3 cameraForward = camera.gameObject.transform.forward;
+            Vector3 location = controllerRight.gameObject.transform.position;
+            location += cameraForward * offset * 4;
+            voxelCar.transform.position = new Vector3(location.x, voxelCar.transform.position.y, location.z);
+            voxelCar.SetActive(!voxelCar.activeInHierarchy);
+
+        }
+        else if (position == 3)
+        {
+            Vector3 cameraForward = camera.gameObject.transform.forward;
+            Vector3 location = controllerRight.gameObject.transform.position;
+            location += cameraForward * offset * 4;
+            voxelPig.transform.position = new Vector3(location.x, voxelPig.transform.position.y, location.z);
+            voxelPig.SetActive(!voxelPig.activeInHierarchy);
+
         }
     }
 }
